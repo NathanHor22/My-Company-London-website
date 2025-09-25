@@ -51,8 +51,6 @@ html {
 }
 
 /* main */
-
-/* main */
 .card-container {
   padding: 0 100px;
 }
@@ -63,10 +61,6 @@ html {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-bottom: 10px solid black;
-  padding: 50px;
-  overflow: auto;
-
-  display: flex;
 }
 
 .about-card {
@@ -77,14 +71,14 @@ html {
 }
 
 .service-card {
-  background: #cfcaca;
+  background: #CFCACA;
   margin-left: -100px;
   width: 900px;
   height: 250px;
 }
 
 .contactUs-card {
-  background: #cfcaca;
+  background: #CFCACA;
   margin-left: 300px;
   height: 300px;
   width: 800px;
