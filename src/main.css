@@ -200,7 +200,7 @@ button {
 /* text-example  */
 .text-card  {
     display: flex;
-    justify-content: space-between; /* Splits the two texts left and right */
+   flex-direction: column; /* Splits the two texts left and right */
     align-items: center;
     width: 70%;
     background: #cfcaca;
@@ -208,6 +208,20 @@ button {
     border-bottom: 10px solid black;
     padding: 50px;
     margin: 0px 0px 0px 100px;
+}
+
+.text-heading {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: left;
+}
+
+.text-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .text-left, .text-right {
