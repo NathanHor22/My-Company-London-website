@@ -147,6 +147,8 @@ button {
     border-collapse: collapse;
     border-top: 4px solid black; /* Adds a thick black line at the top of the table  */
     margin: 20px 0px 0px 70px;
+}
+    
 .s-candidates-table tr {
   margin: 0px 30px 0px 0px;
   text-align: right;
@@ -173,6 +175,7 @@ button {
 
 .candidates-table button {
     background-color: rgb(198, 197, 197);
+    color: #000;
     border: none;
     border-radius: 20px;
     padding: 10px 30px;
@@ -186,6 +189,8 @@ button {
     height: 60%;
     margin-left: 70px;
     border: 40px solid black;
+}
+
 .s-candidates-table {
   margin: 0px 30px 0px 0px;
   text-align: right;
@@ -214,6 +219,7 @@ button {
     display: flex;
     padding-bottom: 20px;
     font-size: 1.5em;
+}
 .s-candidates-table td,
 .s-candidates-table th {
   text-align: right;
