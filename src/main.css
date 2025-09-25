@@ -56,7 +56,6 @@ html {
   border-bottom: 10px solid black;
   padding: 50px;
   overflow: auto;
-
   display: flex;
 }
 
@@ -136,10 +135,35 @@ width: 80%;
     cursor: pointer;
     font-size: 1em;
 }
+
 /* london  */
 .london-img img {
     width: 60%;
     height: 60%;
     margin-left: 70px;
     border: 40px solid black;
+}
+
+/* text-example  */
+.text-card  {
+    display: flex;
+    justify-content: space-between; /* Splits the two texts left and right */
+    align-items: center;
+    width: 70%;
+    background: #cfcaca;
+    color: #000;
+    border-bottom: 10px solid black;
+    padding: 50px;
+    margin: 0px 0px 0px 100px;
+}
+
+.text-left, .text-right {
+    width: 45%;
+    font-size: 1.5em;
+}
+
+.text-card p {
+    display: flex;
+    padding-bottom: 20px;
+    font-size: 1.5em;
 }
