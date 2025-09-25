@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: yellow;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header */
+.header-logo {
+    margin: 30px 50px 0px 50px;      
+    border: 10px solid black;
+    text-align: center;
+}
+
+.header-logo img {
+    width: 20%;   
+    height: 20%;  
+}   
+
+.tabs {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.tabs a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 2em;
+}
+
+.tabs a:hover {
+    background-color: black;
+    color: yellow;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* main */
+
+/* cards */
+
+.card {
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+  background: #cfcaca;
+  color: #000;
+  border-bottom: 10px solid black;
+  padding: 50px;
+  overflow: auto;
+
+  display: flex;
+}
+
+.about-card {
+width: 80%;
+  background: #fff;
+  color: #000;
+  border-bottom: 10px solid black;
+}
+
+.row {
+  margin: 50px 0;
+}
+
+/* service cards */
+.s-about-card {
+    padding-bottom: 80px;
+    width: 80%;
+    background: #cfcaca;
+    color: #000;
+    margin: 40px 0px 0px 30px;
+    border-bottom: #000 10px solid;
+}
+.s-about-card h2 {
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+
+/* candidates cards */
+.s-candidates-card {
+    margin: 0px 30px 0px 0px;
+    text-align: right;
+    width: 80%;
+    background: #ffffff;
+    border: #ffffff 1px solid;
+    border-bottom: #000 10px solid;
+}
+
+.s-candidates-table tr {
+    margin: 0px 30px 0px 0px;
+    text-align: right;
+    border-bottom: 4px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.s-candidates-table {
+    margin: 0px 30px 0px 0px;
+    text-align: right;
+    border-bottom: 4px solid black;
+}
+
+.s-candidates-table td,
+.s-candidates-table th {
+    text-align: right;
+}
