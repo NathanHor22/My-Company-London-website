@@ -6,6 +6,7 @@
         <title></title>
         <link rel="stylesheet" href="main.css"/>
     </head>
+
     <body>
         <main>
             <nav>
@@ -18,6 +19,7 @@
                     <a href="contact.html">Contact</a>
                 </div>
             </nav>
+        <div id="fade-content">
             <div class="s-about-card ">
                 <h2>Services</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -109,8 +111,14 @@
                 Nisi necessitatibus quae, quibusdam dolor ipsam sunt aliquam quidem. Eius, quo, ullam dolore 
                     voluptates id ea veritatis, ducimus modi iusto veniam soluta!</p>
             </div>
+        </div>
         </main>
-
+<script>
+window.onload = function() {
+    var fade = document.getElementById('fade-content');
+    if (fade) fade.style.opacity = 1;
+};
+</script>
     </body>
 </html>
 

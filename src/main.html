@@ -20,8 +20,8 @@
                 <a href="contact.html">Contact</a>
             </div>
         </nav>
-
-        <div class=“card-container”>
+     <div id="fade-content">
+        <div class="card-container">
             <div class="card about-card">
                 <h2>About</h2>
                 <p> Anim qui irure est exercitation esse nisi magna exercitation nisi amet aliquip duis. Qui et tempor
@@ -48,11 +48,15 @@
                     occaecat ex magna. Magna anim incididunt aliquip nostrud commodo laborum reprehenderit est. </p>
                 <button>Read more </button>
             </div>
-
         </div>
-
+    </div>
     </main>
-
+<script>
+window.onload = function() {
+    var fade = document.getElementById('fade-content');
+    if (fade) fade.style.opacity = 1;
+};
+</script>
 </body>
 
 </html>
