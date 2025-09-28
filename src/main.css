@@ -92,7 +92,7 @@ html {
 
 button {
   background-color: black;
-  color: yellow;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -194,14 +194,14 @@ button {
 /* text-example  */
 .text-card  {
     display: flex;
-   flex-direction: column; /* Splits the two texts left and right */
+    flex-direction: column; /* Splits the two texts left and right */
     align-items: center;
     width: 70%;
     background: #cfcaca;
     color: #000;
     border-bottom: 10px solid black;
     padding: 50px;
-    margin: 0px 0px 0px 100px;
+    margin: 0px 0px 0px 300px;
 }
 
 .text-heading {
