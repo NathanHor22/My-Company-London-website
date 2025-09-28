@@ -233,3 +233,95 @@ button {
   text-align: right;
 }
 
+/* contact-us-page  */
+ .contact-us-card {
+    padding-bottom: 20px;
+    padding-left: 50px;
+    width: 80%;
+    background: #cfcdcd;
+    color: #000;
+    margin: 0px 0px 0px 5px;
+    border-bottom: #000 10px solid;
+    overflow-x: auto;
+ }
+
+  .contact-us-card h2 {
+      padding-bottom: 10px;
+      padding-top: 20px;
+      font-size: 2.5em;
+      padding-top: 20px;
+      font-size: 2.0em;
+  }
+
+  .contact-us-card p {
+      padding-bottom: 20px;
+      padding-top: 20px;
+      font-size: 1.2em;
+
+  }
+
+  .contact-us-form {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 90%;
+    height: 40px;
+    font-size: 1.2em;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    width: 90%;
+    height: 120px;
+    font-size: 1.2em;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    width: 20%;
+    background-color: black;
+    color: rgb(224, 211, 21);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* google-map  */
+
+.google-map {
+    padding-left: 20px;
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: 420px;
+    background-color: #cac5c5;
+    border-bottom: 10px solid black;
+}
+
+.google-map h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.google-map p {
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+.google-map iframe {
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
